@@ -11,6 +11,7 @@ header, section {
 
 header, #banner {
   background-image: url("/Users/anulendukwu/Documents/projects/broadway/resources/img/the-flatiron-building.png");
+  background-repeat: no-repeat;
 }
 
 h1, #banner, a, footer {
@@ -30,6 +31,21 @@ h1 {
 header li {
   list-style-type: none;
   padding-top: .75em;
+}
+
+/* Main Content styling */
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.process p, .info p {
+  font-size: 14px;
 }
 
 /* Footer styling */
