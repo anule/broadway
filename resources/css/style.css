@@ -1,0 +1,17 @@
+.container {
+  margin: auto;
+  font-family: Helvetica;
+}
+
+header, section {
+  text-align: center;
+  margin: auto
+}
+
+header li {
+  list-style-type: none;
+}
+
+footer {
+  text-align: left;
+}
