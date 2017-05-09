@@ -1,3 +1,4 @@
+/* Global styling */
 .container {
   margin: auto;
   font-family: Helvetica;
@@ -8,10 +9,35 @@ header, section {
   margin: auto
 }
 
-header li {
-  list-style-type: none;
+header, #banner {
+  background-image: url("/Users/anulendukwu/Documents/projects/broadway/resources/img/the-flatiron-building.png");
 }
 
+h1, #banner, a, footer {
+  color: white;
+}
+
+a {
+  font-size: 18px;
+}
+
+/* Header styling */
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+header li {
+  list-style-type: none;
+  padding-top: .75em;
+}
+
+/* Footer styling */
 footer {
   text-align: left;
+  background-color: dimgray;
+}
+
+#copyright {
+  font-size: 11px;
 }
